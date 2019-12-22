@@ -19,14 +19,48 @@ Landscape:480px
 body{
     width: 100vw;
 }
-.container{
-    width: 30%;
-    margin:auto;
-}
-.header{
-    width: 100%;
-    background-color: orangered;
-    height: 20px;
+@media (min-width:320px){
+    .container{
+        width: 100%;
+        margin:auto;
+    }
+    .header{
+        line-height: 25px;
+        width: 100%;
+        background-color: orangered;
+        height: 25px;
+        text-align: center;
+    }
+    .header p
+    {
+        color: cornsilk;
+        text-transform: capitalize;
+    }
+    .slide
+    {
+        width: 100%;
+        height: 200px; 
+        position: relative;      
+    }
+    .slide figure{
+        width: 100%;
+        height: 100%;
+
+    }
+    .slide figure img{
+        width: 100%;
+        height: 100%;
+    }
+    h1
+    {
+        position: absolute;
+        text-transform: capitalize;
+        font-size: 1.5em;
+        font-weight: bold;
+        top: 20px;
+        left: 45px;
+        color:black;
+    }
 }
 
 /*-------------------------------TABLETS---------------- 
@@ -38,8 +72,8 @@ Landscape:1024px*/
 /* -----------------------PORTATIL------------------------ 
 1366px*/
 
-@media screen and (min-width:1366px) and (min-width:1920px){
 
-}
+
+
 /*------------------------ DESKTOP-------------------------
 1920px */
