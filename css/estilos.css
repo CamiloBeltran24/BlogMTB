@@ -11,3 +11,35 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+/* -----------------CELULARES---------------------------
+portrait:320px
+Landscape:480px
+*/
+body{
+    width: 100vw;
+}
+.container{
+    width: 30%;
+    margin:auto;
+}
+.header{
+    width: 100%;
+    background-color: orangered;
+    height: 20px;
+}
+
+/*-------------------------------TABLETS---------------- 
+portrait:768px
+Landscape:1024px*/
+
+
+
+/* -----------------------PORTATIL------------------------ 
+1366px*/
+
+@media screen and (min-width:1366px) and (min-width:1920px){
+
+}
+/*------------------------ DESKTOP-------------------------
+1920px */
