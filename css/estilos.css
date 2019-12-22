@@ -1,0 +1,72 @@
+/* Fuentes
+    textos - font-family: 'Roboto', sans-serif;
+    titulos - font-family: 'Lato', sans-serif;
+    h1 y menu - font-family: 'Source Sans Pro', sans-serif;
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECE2D0;
+    font-size: 16px;
+}
+.container
+{
+    max-width: 1000px;
+    margin:auto;
+    width: 90%;
+    padding: 5px;
+    background-color: #EAE6E5;
+}
+h1
+{
+    background-color:blue;
+    color: white;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.header
+{
+    border: 1px solid gray;
+    padding: 5px;
+}
+.menu
+{
+    font-size: 1.25em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.menu ul
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+.menu ul li
+{
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border: 1px dashed black;
+    margin-top: 5px;
+}
+.menu ul li a
+{
+    width: 100%;
+    display: block;
+    color:blue;
+}
+h2
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin:5px;
+}
