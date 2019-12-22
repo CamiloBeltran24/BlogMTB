@@ -90,16 +90,27 @@ body{
         margin:auto;
         margin-top: 10px;
         padding: 10px;
+        /* box-shadow: 0px 0px 12px 3px; */
     }
     .publicacion .container-image-post
     {
         width: 100%;
         background-color: gray;
-        height: 200px;
+        height: 150px;
     }
     .publicacion h3
     {
-
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-top: 10px;
+    }
+    .publicacion hr
+    {
+        width: 50%;
+        /* margin: auto; */
+    }
+    .publicacion p
+    {
+        margin-top: 7px;
     }
 }
 
