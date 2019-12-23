@@ -16,16 +16,21 @@
 portrait:320px
 Landscape:480px
 */
+/*--------------Portrait--------------*/
 body{
-    width: 100vw;
+    width: 100%;
     background-color: #f2f2f2;
+}
+figure{
+    margin: 0;
 }
 @media (min-width:320px){
     .container{
         width: 100%;
         margin:auto;
     }
-    .header{
+    .header
+    {
         display: flex;
         flex-wrap: wrap;
         /*line-height: 25px;*/
@@ -33,13 +38,25 @@ body{
         justify-content: space-around;
         width: 100%;
         background-color: orangered;
-        height: 30px;
+        height: 50px;
         text-align: center;
+    }
+    .header .icon-menu
+    {
+        position: fixed;
+        left: 10px;
+        top: 5px;
+        font-size: 1.3em;
+        padding: 10px;
+        background-color: orangered;
+        border-radius: 50%;
+        z-index: 1;
     }
     .header p
     {
         color: cornsilk;
         text-transform: capitalize;
+        margin: 0;
     }
     .slide
     {
@@ -55,6 +72,7 @@ body{
     {
         width: 100%;
         height: 100%;
+        margin: 0;
     }
     .slide figure img
     {
@@ -67,11 +85,12 @@ body{
         position: absolute;
         font-family: 'Source Sans Pro', sans-serif;
         text-transform: capitalize;
-        font-size: 1.5em;
+        font-size: 1.6em;
         font-weight: bold;
         bottom: 12px;
-        right: 3px;
+        right: 10px;
         color:cornsilk;
+        z-index: 2;
     }
     .publicaciones
     {
@@ -198,6 +217,53 @@ body{
         margin-left: 25px;
         font-size: .7em;
     }
+}
+/*-------------Landscape-----------------*/
+@media (min-width: 480px) {
+    .header
+    {
+        height: 55px;
+    }
+    .header p
+    {
+        font-size:1.3em;
+    }
+    .slide
+    {
+        height: 300px;
+    }
+    h1
+    {
+        font-size: 2.6em;
+        bottom: 20px;
+        right: 20px;
+    } 
+    .publicaciones h2
+    {
+        font-size: 2.3em;
+    }
+    .publicaciones>p
+    {
+        font-size: 1.2em;
+    }
+    .publicacion .container-image-post
+    {
+        height: 250px;
+    }
+    .publicacion h3
+    {
+        font-size: 1.5em;
+    }
+    .publicacion p
+    {
+        font-size: 1.2em;
+    }
+    .header .icon-menu{
+
+        left: 20px;
+        font-size: 1.7em;
+    }
+}
 
 /*-------------------------------TABLETS---------------- 
 portrait:768px
@@ -212,4 +278,4 @@ Landscape:1024px*/
 
 
 /*------------------------ DESKTOP-------------------------
-1920px */
+1920px 
