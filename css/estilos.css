@@ -61,8 +61,12 @@ figure{
         background-color: orangered;
         opacity: .9;
         top: 0;
-        left: 0;
+        left: -50%;
         padding: 20px 0;
+        transition: .3s;
+    }
+    .menu.is-active{
+        left: 0;
     }
     .menu ul{
         display: flex;
@@ -77,7 +81,7 @@ figure{
     {
         /* display: flex; */
         width: 100%;
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
     .menu ul li a 
     {
