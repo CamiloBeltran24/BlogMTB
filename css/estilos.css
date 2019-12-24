@@ -263,7 +263,7 @@ figure{
     }
 }
 /*-------------Landscape-----------------*/
-@media (min-width: 480px) and (max-width:767px){
+@media (min-width: 480px){
     .header
     {
         height: 55px;
@@ -332,7 +332,7 @@ Landscape:1024px*/
 @media (min-width:768px){
     .menu
     {
-        height: 60%;
+        height: 100%;
     }
     .menu ul
     {
