@@ -79,7 +79,7 @@ figure{
     }
     .menu ul li 
     {
-        /* display: flex; */
+        display: flex;
         width: 100%;
         margin-top: 10px;
     }
@@ -266,6 +266,10 @@ figure{
     .header p
     {
         font-size:1.3em;
+    }
+    .menu ul
+    {
+        height: 100%;
     }
     .slide
     {
