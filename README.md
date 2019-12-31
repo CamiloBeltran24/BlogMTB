@@ -1,2 +1,0 @@
-# BlogMTB
-Blog personal MTB
