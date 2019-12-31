@@ -263,7 +263,32 @@ figure{
         margin-left: 25px;
         font-size: .8em;
     }
+    .description-container
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .descripcion
+    {
+        width: 100%;
+    }
+    .description-cb
+    {
+        padding: 10px;
+        font-family: 'Helvetica';
+        font-size: 1.1em;
+        font-style: italic;
+    }
+    .descripcion-container .descripcion .description-cb span
+    {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+
+    /* :::::::::::::: Acerca de :::::::::::::::: */
+
 }
+
 /*-------------Landscape-----------------*/
 @media (min-width: 480px){
     .header
