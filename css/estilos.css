@@ -263,21 +263,38 @@ figure{
         margin-left: 25px;
         font-size: .8em;
     }
-    .description-container
+    .descripcion-container
     {
         width: 90%;
-        margin: 0 auto;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .descripcion-container h2
+    {
+        margin:10px 0;
+        box-shadow: 0 0 5px 1px;
     }
     .descripcion
     {
         width: 100%;
+        text-align: center;
+        border: 1px solid orangered;
+        box-shadow: 5px 5px 9px 0px orangered
+    }
+    .img-cb
+    {
+        width: 60%;
+        /* height: 300px; */
+        border-radius: 5px;
+        margin-top: 10px;
     }
     .description-cb
     {
         padding: 10px;
         font-family: 'Helvetica';
-        font-size: 1.1em;
+        font-size: 1em;
         font-style: italic;
+        text-align: justify;
     }
     .descripcion-container .descripcion .description-cb span
     {
